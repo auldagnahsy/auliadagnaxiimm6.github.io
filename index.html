@@ -5,60 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
   </head>
-  <body class="bg-dark">
-    <div>
-        <div class="row">
-          <div class="col-8 " style="padding: 50px 0  0 50px;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="ultramilk.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-          </div>
-          <div class="col text-light" style="padding-top: 60px;">
-            <h5>Product Description</h5>
-            <div style="padding-top: 20px;">
-                <p>Category <span> : Web Design</span></p>
-                <p>Client <span>: Ultramilk</span></p>
-                <p>Project Date <span>: 1-Juli-2022</span></p>
-                <p>Project Url : <span><a href="ultrajaya.co.id">ultrajaya.co.id</a></span></p>
-            </div>
-            <div style="padding-top: 20px;">
-                <h5>This is an example of product description</h5>
-                <p>Merupakan susu segar alami berkualitas tinggi dengan berbagai kebaikan seluruh kandungan nutrisi didalamnya, dari mulai protein, karbohidrat, vitamin, serta berbagai macam mineral seperti kalsium, magnesium, fosfor.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
+  <body>
+    <h1></h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Gerry Saluut</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="gerry slide 1.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="gerry slide 2.jpg" class="d-block w-100" alt="gerry list 1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="gerry slide 3.jpg" class="d-block w-100" alt="gerry list 2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="gerry slide 4.jpg" class="d-block w-100" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="gerry list 1.jpg" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Chocolate Coconut</h5>
+    <p class="card-text">Perpaduan wafer cokelat dengan kelapa yang nikmat pasti buat kamu nagih terus.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="gerry list 2.jpg" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Coconut Roll</h5>
+    <p class="card-text">Enaknya gerry coconut roll di jamin bikin kelapak kelapak deh. Buruan cobain!</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
   </body>
-</html>>
+</html>
